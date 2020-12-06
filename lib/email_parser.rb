@@ -9,7 +9,7 @@ class EmailAddressParser
     end
 
     def parse
-        self.emails.split(/,\s|\s/).unique
+        self.emails.split(/,\s|\s/).uniq!
     end
 end
 
