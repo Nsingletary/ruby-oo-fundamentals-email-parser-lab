@@ -7,4 +7,6 @@ class EmailAddressParser
     def initialize(emails)
       self.emails == emails
     end
+end
+
   
