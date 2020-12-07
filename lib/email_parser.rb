@@ -9,7 +9,7 @@ class EmailAddressParser
     end
 
     def parse
-        @emails.split(/,\s|\s/).uniq!
+        @emails :split(/,\s|\s/).uniq!
     end
 end
 
